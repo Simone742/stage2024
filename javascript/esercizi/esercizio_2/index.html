@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Verifica stringa</title>
+    <script src="script.js" defer type="text/javascript"></script>
+</head>
+<body>
+    <form>
+
+        <h1>il carattere è presente nella stringa?</h1>
+
+        <label>di quale carattere vuoi verificare la presenza tra la 2a e 4a posizione?</label>
+        <br>
+        <input type="text" name="campoCarattere" id="campoCarattere">
+
+        <br>
+
+        <label>in quale stringa?</label>
+        <br>
+        <input type="text" name="campoStringa" id="campoStringa">
+
+        <br>
+        
+        <button onclick="verificaCarattereInStr(event, 2, 4)">Verifica</button>
+
+        <br>
+
+        <label id="labelEsito">Riempi i campi...</label>
+
+    </form>
+
+</body>
+</html>

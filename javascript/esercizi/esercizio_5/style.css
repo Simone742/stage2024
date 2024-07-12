@@ -1,0 +1,11 @@
+body {
+    font-family: 'Courier New', Courier, monospace;
+}
+
+#bottone {
+    padding: 10px;
+}
+
+#p_url {
+    font-size: 50px;
+}

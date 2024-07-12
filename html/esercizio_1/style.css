@@ -1,0 +1,279 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: antiquewhite;
+}
+
+.titolo_divina_commedia {
+    border: 2px dashed rgb(22, 22, 22);
+    border-radius: 20px;
+    padding: 30px;
+    font-size: 50px;
+    letter-spacing: 8px;
+    font-style:italic;
+    text-decoration: underline  ;
+    text-shadow: 5px 5px 10px blueviolet;
+}
+
+.intro_divina_commedia {
+    line-height: 1.4;
+    text-align: justify;
+}
+
+.riga {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: nowrap;
+    align-items: center;
+    padding: 50px;
+}
+
+.colonna_intro {
+    flex-basis: 100%;
+}
+
+.colonna {
+    padding: 0 40px
+}
+
+.colonna_versi {
+    padding: 50px;
+}
+
+.ritratto_dante {
+    height: auto;
+}
+
+#colonna_ritratto_dante {
+    justify-self: center;
+}
+
+.intro_dante {
+    font-size: 20px;
+}
+
+.iniziale {
+    font-size: 20px;
+    font-style: italic;
+}
+
+.versi {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 18px;
+    color: aliceblue;
+}
+
+.punto_di_domanda {
+    font-size: 100px;
+    margin-bottom: 5px;
+}
+
+.didascalia_dante {
+    font-style: italic;
+    font-size: 13px;
+}
+
+.testo_footer {
+    font-family: 'Courier New', Courier, monospace ;
+}
+
+.div_inferno {
+    background-color: rgb(38, 34, 84);
+}
+
+.div_purgatorio {
+    background-color: rgb(84, 56, 132);
+}
+
+.div_paradiso {
+    background-color: rgb(154, 119, 207);
+}
+
+.cantica {
+    padding: 10px;
+}
+
+.div_cantiche {
+    display: flex;
+    flex: 33.33%;
+    flex-wrap:nowrap;
+}
+
+.contenitore_immagine {
+    height: 400px;
+}
+
+.immagine_cosmologia {
+            width: auto;
+            height: 100%;
+}
+
+#border_image {
+    border: 3px dotted rgb(193, 249, 9);
+}
+
+#riga_cantiche {
+    padding: 50px;
+    border-spacing: 50px;
+    border-style: solid none;
+    border-width: 2px;
+    border-color: violet;
+}
+
+h3 {
+    font-size: 25px;
+    color: aliceblue;
+    font-weight: bolder;
+}
+
+nav {
+    position: sticky;
+    top: 0;
+}
+
+.navigazione {
+
+
+    width: 100%;
+
+    opacity: 80%;
+
+    height: 50px;
+    background-color: aliceblue;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+
+    border-top: 3px solid purple;
+    border-bottom: 2px solid rgb(90, 90, 90);
+
+    box-shadow: 0px 5px 20px  gray;
+}
+
+.elemento_navigazione {
+    width: auto;
+    flex-basis: 10%;
+    padding-left: 20px;
+}
+
+.aref_navigazione {
+    color: black;
+}
+
+.testo_footer {
+    font-family: 'Courier New', Courier, monospace ;
+}
+
+.riga_slideshow {
+    display: flex;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    align-items: center;
+    align-content: baseline;
+}
+
+.div_immagine_slideshow {
+    flex: 33.33%;
+    padding: 50px 0;
+}
+
+.immagine_slideshow {
+    width: 400px;
+}
+
+
+
+.gestore_audio {
+
+    position: fixed;
+
+    bottom: 30px;
+    left: 0;
+    right: 0;
+
+    padding: 10px 0;
+
+    margin: 0 40px;
+
+    border-radius: 20px;
+
+    opacity: 80%;
+    background-color: blueviolet;
+
+    box-shadow: 5px 10px 20px  black;
+
+}
+
+.barra_audio {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: nowrap;
+}
+
+.audio_barra {
+    padding: 0 20px;
+}
+
+.sezione_pagamento {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    padding: 100px;
+
+    background-color: rgb(198, 191, 191);
+
+}
+
+.scritta_demo {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 50px;
+}
+
+.pubblicità {
+    margin: 20px;
+}
+
+.div_richiesta {
+    padding: 20px;
+}
+
+.div_pagamento {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.campo {
+    padding: 10px 70px;
+}
+
+*, *::before, *::after {
+    box-sizing: border-box;
+}
+* {
+    margin: 0;
+}
+body {
+    line-height: 1.5;
+    -webkit-font-smoothing: antialiased;
+}
+img, picture, video, canvas, svg {
+    display: block;
+    max-width: 100%;
+}
+input, button, textarea, select {
+    font: inherit;
+}
+p, h1, h2, h3, h4, h5, h6 {
+    overflow-wrap: break-word;
+}
+#root, #__next {
+    isolation: isolate;
+}
+
+

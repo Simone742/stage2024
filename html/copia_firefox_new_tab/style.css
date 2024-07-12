@@ -1,0 +1,193 @@
+/* Displays for HTML 5 */
+article, aside, audio, command, datagrid, details, dialog, embed, 
+figcaption, figure, footer, header, hgroup, menu, nav, section, summary,
+video, wbr {
+	display: block;
+}
+
+bdi, figcaption, keygen, mark, meter, progress, rp, rt, ruby, time {
+	display: inline;
+}
+
+/* Deprecated tags */
+acronym, applet, big, center, dir, font, frame, frameset, noframes, s,
+strike, tt, u, xmp {
+	display: none;
+}
+
+/* Reset styles for all structural tags */
+a, abbr, area, article, aside, audio, b, bdo, blockquote, body, button, 
+canvas, caption, cite, code, col, colgroup, command, datalist, dd, del, 
+details, dialog, dfn, div, dl, dt, em, embed, fieldset, figure, form,
+h1, h2, h3, h4, h5, h6, head, header, hgroup, hr, html, i, iframe, img, 
+input, ins, keygen, kbd, label, legend, li, map, mark, menu, meter, nav,
+noscript, object, ol, optgroup, option, output, p, param, pre, progress,
+q, rp, rt, ruby, samp, section, select, small, span, strong, sub, sup, 
+table, tbody, td, textarea, tfoot, th, thead, time, tr, ul, var, video {
+	background: transparent;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	margin: 0;
+	outline: none;
+	padding: 0;
+	text-align: left;
+	text-decoration: none;
+	vertical-align: baseline;
+	z-index: 1;
+}
+
+/* Miscellaneous resets */
+body {
+	line-height: 1;
+    font-family: Inter;
+}
+
+ol, ul {
+	list-style: none;
+}
+
+blockquote, q {
+	quotes: none;
+
+}
+
+blockquote:before, blockquote:after, q:before, q:after {
+	content: '';
+	content: none;
+}
+
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+
+
+
+body {
+    background-color: rgb(43, 42, 51);
+}
+
+.div_bookmark_tab {
+    height: 30px;
+    border-bottom: 1px solid black;
+
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+
+}
+
+.bookmark {
+    margin: 0px 20px;
+
+    color: aliceblue;
+    font-size: 13px;
+}
+
+.bookmark_logo {
+    height: 13px;
+}
+
+.div_main {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.icona_impostazioni {
+    align-self: flex-end;
+    margin: 20px;
+}
+
+.div_logo_scritta_firefox {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 250px 0 0 0;
+}
+
+.elemento_logo {
+    padding: 7px;
+}
+
+#immagine_firefox {
+    height: 80px;
+}
+
+.scritta_firefox {
+    color: aliceblue;
+    font-size: 40px;
+    font-weight: 650;
+    font-family: Inter;
+}
+
+.barra_ricerca {
+    width: 700px;
+
+    margin: 30px 0 0 0;
+    padding: 15px 20px;
+
+    border-radius: 10px;
+
+    background-color: rgb(66, 65, 77);
+
+}
+
+.barra_ricerca::placeholder {
+    color: rgb(166, 165, 172);
+    font-family: Inter;
+    
+}
+
+.div_suggerimenti {
+    margin: 60px 0 0 0;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+
+}
+
+.suggerimento {
+    height: 80px;
+    width: 80px;
+
+    border-radius: 10px;
+
+    background-color: rgb(66, 65, 77);
+
+    margin: 0 20px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.logo_suggerimento {
+    width: 50px;
+}
+
+.div_nomi_suggerimenti {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.nome_suggerimento {
+    width: 80px;
+    height: 20px;
+
+    color: aliceblue;
+
+    justify-self: center;
+
+    margin: 10px 20px;
+
+    font-size: 12px;
+    text-align: center;
+}
+

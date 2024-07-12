@@ -1,0 +1,615 @@
+
+    /* Displays for HTML 5 */
+article, aside, audio, command, datagrid, details, dialog, embed, 
+figcaption, figure, footer, header, hgroup, menu, nav, section, summary,
+video, wbr {
+	display: block;
+}
+
+bdi, figcaption, keygen, mark, meter, progress, rp, rt, ruby, time {
+	display: inline;
+}
+
+/* Deprecated tags */
+acronym, applet, big, center, dir, font, frame, frameset, noframes, s,
+strike, tt, u, xmp {
+	display: none;
+}
+
+/* Reset styles for all structural tags */
+a, abbr, area, article, aside, audio, b, bdo, blockquote, body, button, 
+canvas, caption, cite, code, col, colgroup, command, datalist, dd, del, 
+details, dialog, dfn, div, dl, dt, em, embed, fieldset, figure, form,
+h1, h2, h3, h4, h5, h6, head, header, hgroup, hr, html, i, iframe, img, 
+input, ins, keygen, kbd, label, legend, li, map, mark, menu, meter, nav,
+noscript, object, ol, optgroup, option, output, p, param, pre, progress,
+q, rp, rt, ruby, samp, section, select, small, span, strong, sub, sup, 
+table, tbody, td, textarea, tfoot, th, thead, time, tr, ul, var, video {
+	background: transparent;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	margin: 0;
+	outline: none;
+	padding: 0;
+	text-align: left;
+	text-decoration: none;
+	vertical-align: baseline;
+	z-index: 1;
+}
+
+/* Miscellaneous resets */
+body {
+	line-height: 1;
+    font-family: "Netflix Sans";
+}
+
+ol, ul {
+	list-style: none;
+}
+
+blockquote, q {
+	quotes: none;
+
+}
+
+blockquote:before, blockquote:after, q:before, q:after {
+	content: '';
+	content: none;
+}
+
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+
+
+
+
+
+body {
+    background: url("https://assets.nflxext.com/ffe/siteui/vlv3/335ddde7-3955-499c-b4cc-ca2eb7e1ae71/a3116ebe-30f0-47c6-96cf-1f293b8bb49d/IT-en-20240624-POP_SIGNUP_TWO_WEEKS-perspective_WEB_26b3696e-929a-4bca-a697-15e00bb0673a_small.jpg"), radial-gradient(rgb(0, 0, 0, 0) 20%, rgb(0, 0, 0, 1) 80%);
+    background-size: cover;
+    background-blend-mode: overlay;
+
+    background-color: black;
+
+    font-family: "Netflix Sans";
+
+    color: aliceblue
+}
+
+nav {
+
+    display: flex;
+
+    justify-content: space-around;
+    align-items: center;
+
+    height: 100px;
+}
+
+.div_gradiente_sfondo {
+    
+}
+
+.img_logo_netflix {
+    height: 50px;
+    margin-left: 0px;
+}
+
+.div_lingua_accedi {
+    display: flex;
+    justify-content: space-between;
+
+    margin-right: 0px;
+
+}
+
+#select_lingua {
+    border: 1px solid rgb(97, 96, 95);
+    border-radius: 5px;
+
+    padding: 5px 25px
+}
+
+.submit_accedi {
+    font-size: 15px;
+
+    background-color: red;
+    
+    border-radius: 5px;
+
+    padding: 5px 15px;
+}
+
+.elemento_lingua_accedi {
+    margin: 0 10px;
+    color: white;
+}
+
+
+.div_main {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    height: 620px;
+
+}
+
+.div_main > .titolo {
+    font-size: 50px;
+    font-weight: 1000;
+    letter-spacing: 2px;
+
+    justify-content: center;
+
+    margin: 100px 40px 30px;
+}
+
+.div_main > .sottotitolo {
+    font-size: 26px;
+    font-weight: 400;
+}
+
+.div_main > .slogan {
+    font-size: 22px;
+    margin-top: 20px;
+}
+
+.div_main > * {
+    margin-bottom: 20px;
+}
+
+.div_get_started {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#input_text_get_started {
+    border: 1px solid rgb(97, 96, 95);
+    border-radius: 5px;
+
+    padding: 20px;
+
+    width: 350px;
+
+    color: aliceblue;
+    background-color: black;
+    
+    opacity: 80%;
+}
+
+#input_text_get_started::placeholder {
+    color: rgb(185, 185, 185);
+
+}
+
+#submit_get_started {
+    color: aliceblue;
+    background-color: red;
+
+    border-radius: 5px;
+    border: 1px solid red;
+
+    padding: 16.5px 16.5px 16.5px 16.5px;
+
+    margin: 0 5px;
+
+    width: 250px;
+
+    text-align: center;
+    font-weight: 500;
+    font-size: 25px;
+}
+
+.div_piano_pubblicità {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    margin: 0 20px;
+
+    border-radius: 10px;
+
+    height: 300px;
+
+    background-image: radial-gradient(circle at center top, rgb(129, 38, 53) 20%, rgb(17, 27, 76) 60%);
+}
+
+.popcorn_icon {
+    height: 100px;
+    margin: 0 20px;
+}
+
+.div_scritte_pubblicità {
+    line-height: 30px;
+
+    font-size: 20px;
+}
+
+.div_scritte_pubblicità > b {
+    font-weight: 500;
+}
+
+.div_scritte_pubblicità > p {
+    font-size: 15px;
+}
+
+.div_scritte_pubblicità > p > a {
+    color: rgb(87, 140, 237);
+
+    text-decoration: underline;
+    text-underline-offset: 2px;
+
+    font-size: 18px;
+    font-weight: 500;
+
+}
+
+.div_perche {
+
+    background-color: black ;
+
+    display: flex;
+    flex-direction: column;
+
+}
+
+.perche {
+    display: flex;
+    flex-wrap: wrap;
+
+    justify-content: center;
+    align-items: center;
+
+    margin: 100px 0;
+
+    min-height: 500px;
+}
+
+.testo_perche {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+
+    max-width: 800px;
+}
+
+.testo_perche > h1 {
+    font-size: 60px;
+    font-weight: bolder;
+}
+
+.testo_perche > h2 {
+    font-size: 28px;
+    word-wrap: wrap;
+}
+
+.separa_perché {
+    height: 10px;
+    background-color: rgb(35, 35, 35);
+}
+
+
+
+@media only screen and (min-width: 768px) {
+
+
+
+        /* Displays for HTML 5 */
+    article, aside, audio, command, datagrid, details, dialog, embed, 
+    figcaption, figure, footer, header, hgroup, menu, nav, section, summary,
+    video, wbr {
+        display: block;
+    }
+
+    bdi, figcaption, keygen, mark, meter, progress, rp, rt, ruby, time {
+        display: inline;
+    }
+
+    /* Deprecated tags */
+    acronym, applet, big, center, dir, font, frame, frameset, noframes, s,
+    strike, tt, u, xmp {
+        display: none;
+    }
+
+    /* Reset styles for all structural tags */
+    a, abbr, area, article, aside, audio, b, bdo, blockquote, body, button, 
+    canvas, caption, cite, code, col, colgroup, command, datalist, dd, del, 
+    details, dialog, dfn, div, dl, dt, em, embed, fieldset, figure, form,
+    h1, h2, h3, h4, h5, h6, head, header, hgroup, hr, html, i, iframe, img, 
+    input, ins, keygen, kbd, label, legend, li, map, mark, menu, meter, nav,
+    noscript, object, ol, optgroup, option, output, p, param, pre, progress,
+    q, rp, rt, ruby, samp, section, select, small, span, strong, sub, sup, 
+    table, tbody, td, textarea, tfoot, th, thead, time, tr, ul, var, video {
+        background: transparent;
+        border: 0;
+        font-size: 100%;
+        font: inherit;
+        margin: 0;
+        outline: none;
+        padding: 0;
+        text-align: left;
+        text-decoration: none;
+        vertical-align: baseline;
+        z-index: 1;
+    }
+
+    /* Miscellaneous resets */
+    body {
+        line-height: 1;
+        font-family: "Netflix Sans";
+    }
+
+    ol, ul {
+        list-style: none;
+    }
+
+    blockquote, q {
+        quotes: none;
+
+    }
+
+    blockquote:before, blockquote:after, q:before, q:after {
+        content: '';
+        content: none;
+    }
+
+    table {
+        border-collapse: collapse;
+        border-spacing: 0;
+    }
+
+
+
+
+
+
+
+
+
+
+        
+        body {
+            background-size: cover;
+
+            background-color: black;
+
+            font-family: "Netflix Sans";
+
+            color: aliceblue
+        }
+
+        nav {
+
+            display: flex;
+
+            justify-content: space-around;
+            align-items: center;
+
+            height: 100px;
+        }
+
+        .div_gradiente_sfondo {
+            background: url("https://assets.nflxext.com/ffe/siteui/vlv3/335ddde7-3955-499c-b4cc-ca2eb7e1ae71/a3116ebe-30f0-47c6-96cf-1f293b8bb49d/IT-en-20240624-POP_SIGNUP_TWO_WEEKS-perspective_WEB_26b3696e-929a-4bca-a697-15e00bb0673a_small.jpg"), radial-gradient(rgb(0, 0, 0, 0) 20%, rgb(0, 0, 0, 1) 80%);
+            background-size: cover;
+            background-blend-mode: overlay;
+
+        }
+
+        .img_logo_netflix {
+            height: 50px;
+            margin-left: 0px;
+        }
+
+        .div_lingua_accedi {
+            display: flex;
+            justify-content: space-between;
+
+            margin-right: 0px;
+
+        }
+
+        #select_lingua {
+            border: 1px solid rgb(97, 96, 95);
+            border-radius: 5px;
+
+            padding: 5px 25px
+        }
+
+        .submit_accedi {
+            font-size: 15px;
+
+            background-color: red;
+            
+            border-radius: 5px;
+
+            padding: 5px 15px;
+        }
+
+        .elemento_lingua_accedi {
+            margin: 0 10px;
+            color: white;
+        }
+
+
+        .div_main {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+
+            height: 620px;
+        
+        }
+
+        .div_main > .titolo {
+            font-size: 50px;
+            font-weight: 1000;
+            letter-spacing: 2px;
+
+            margin: 100px 0 30px 0;
+        }
+
+        .div_main > .sottotitolo {
+            font-size: 26px;
+            font-weight: 400;
+        }
+
+        .div_main > .slogan {
+            font-size: 22px;
+            margin-top: 20px;
+        }
+
+        .div_main > * {
+            margin-bottom: 20px;
+        }
+
+        .div_get_started {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        #input_text_get_started {
+            border: 1px solid rgb(97, 96, 95);
+            border-radius: 5px;
+
+            padding: 20px;
+
+            width: 350px;
+
+            color: aliceblue;
+            background-color: black;
+            
+            opacity: 80%;
+        }
+
+        #input_text_get_started::placeholder {
+            color: rgb(185, 185, 185);
+
+        }
+
+        #submit_get_started {
+            color: aliceblue;
+            background-color: red;
+
+            border-radius: 5px;
+            border: 1px solid red;
+
+            padding: 16.5px 16.5px 16.5px 16.5px;
+
+            margin: 0 5px;
+
+            width: 250px;
+
+            text-align: center;
+            font-weight: 500;
+            font-size: 25px;
+        }
+
+        .div_piano_pubblicità {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+
+            border-radius: 0px;
+
+            margin: 0;
+
+            height: 150px;
+
+            background-image: radial-gradient(circle at center top, rgb(129, 38, 53) 20%, rgb(17, 27, 76) 60%, black);
+        }
+
+        .popcorn_icon {
+            height: 100px;
+            margin: 0 20px;
+        }
+
+        .div_scritte_pubblicità {
+            line-height: 30px;
+
+            font-size: 20px;
+        }
+
+        .div_scritte_pubblicità > b {
+            font-weight: 500;
+        }
+
+        .div_scritte_pubblicità > p {
+            font-size: 15px;
+        }
+
+        .div_scritte_pubblicità > p > a {
+            color: rgb(87, 140, 237);
+
+            text-decoration: underline;
+            text-underline-offset: 2px;
+
+            font-size: 18px;
+            font-weight: 500;
+
+        }
+
+        .div_perche {
+
+            background-color: black ;
+
+            display: flex;
+            flex-direction: column;
+
+        }
+
+        .perche {
+            display: flex;
+            flex-wrap: wrap;
+
+            justify-content: center;
+            align-items: center;
+
+            margin: 100px 0;
+
+            min-height: 500px;
+        }
+
+        .testo_perche {
+            display: flex;
+            flex-wrap: wrap;
+            flex-direction: column;
+            justify-content: center;
+            align-items: flex-start;
+
+            max-width: 800px;
+        }
+
+        .testo_perche > h1 {
+            font-size: 60px;
+            font-weight: bolder;
+        }
+
+        .testo_perche > h2 {
+            font-size: 28px;
+            word-wrap: wrap;
+        }
+
+        .separa_perché {
+            height: 10px;
+            background-color: rgb(35, 35, 35);
+        }
+
+}
+
+
+
+
+
+

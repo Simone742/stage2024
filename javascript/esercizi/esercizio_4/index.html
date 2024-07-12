@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>quarto parametro</title>
+    <script src="script.js" defer></script>
+</head>
+<body>
+
+    <p>partendo dall'esercizio 1, creare una funzione che accetta tre numeri 
+        ed un quarto parametro e printare un array con i tre numeri interi 
+        messi in ordine dal più grande al più piccolo o viceversa a seconda 
+        del quarto parametro, che può essere una stringa o un booleano. 
+        Restituire un eccezione (un errore a console, in questo caso), 
+        qualora uno dei parametri immessi nella funzione non corrisponda 
+        al tipo desiderato (es. immetto un booleano al posto di un numero), 
+        in caso si inserisca una stringa invece provare a convertire il 
+        valore a numero e usare parseInt per convertire qualsiasi valore 
+        float in intero (domani vediamo come si può fare in un modo diverso)</p>
+
+
+    <form>
+
+        <label>inserisci il primo numero</label>
+        <br>
+        <input type="text" name="" id="campoNumUno">
+
+        <br>
+        <br>
+
+        <label>inserisci il secondo numero</label>
+        <br>
+        <input type="text" name="" id="campoNumDue">
+
+        <br>
+        <br>
+
+        <label>inserisci il terzo numero</label>
+        <br>
+        <input type="text" name="" id="campoNumTre">
+
+        <br>
+        <br>
+
+        <label>inserisci il quarto parametro</label>
+        <br>
+        <input type="text" name="" id="campoQuarto">
+
+        <br>
+        <br>
+
+        <button onclick="scriviNumeriOrdinati(event)">Ordina</button>
+
+        <br>
+        <br>
+
+        <textarea name="" id="areaOrdine"></textarea>
+
+    </form>
+</body>
+</html>
